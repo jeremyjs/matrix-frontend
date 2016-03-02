@@ -1,8 +1,50 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url("/img/matrix.gif"); -9999px -9999px;
+}
+
+.container, .container * {
+  z-index: 200;
+  opacity: 1;
+  color: white;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+}
+
+p.bio {
+  text-align: center;
+  width:
+}
+
+ul.links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li.link {
+  margin: 0 10px;
 }

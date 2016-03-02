@@ -1,6 +1,19 @@
 extends layout
 
 block content
-  h1= Jeremy Meyer
-  img(src="/img/profile.jpg")
-  p Welcome to #{title}
+  .mask
+  .container
+    h1 Jeremy Meyer
+    .img-container
+      img(src="/img/profile.jpg")
+    p.bio.line-1 My name is Jeremy.
+    p.bio.line-2 I'm a full-stack Javascript and Ruby developer from Purdue University.
+    ul.links
+      li.link.projects
+        a(href="https://devpost.com/jjman505") Projects
+      //- li.link.blog
+      //-   a(href="https") Blog
+      li.link.github
+        a(href="https://github.com/jjman505") Github
+      li.link.linked-in
+        a(href="https://linkedin.com/in/jeremypmeyer") LinkedIn
