@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jeremy Meyer -- Lead Developer
+
+# THANKS
+
+    HTML5 Boilerplate <https://html5boilerplate.com>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, ES5
+    Modernizr, Normalize.css
